@@ -33,6 +33,17 @@ android.minapi = 21
 
 # (str) Android NDK choice
 android.ndk = 25b
+# (int) Target Android API, should be as high as possible.
+android.api = 33
+
+# (int) Minimum API your APK will support.
+android.minapi = 21
+
+# (str) Android SDK build-tools version
+android.build_tools_version = 33.0.2
+
+# (int) Skip sdk license confirmation (accept automatically)
+android.accept_sdk_license = True
 
 [buildozer]
 log_level = 2
